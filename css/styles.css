@@ -73,13 +73,11 @@ a:visited {
 
 .content {
     width: 100%;
-    position:absolute;
-    top: 100vh;
+    margin-top: 100vh;
 }
 
-
 .council {
-    margin-top: 5%;
+    margin-top: 2%;
     display: grid;
     width: 100%;
     grid-template-columns: 1fr max-content 1fr;
@@ -96,4 +94,9 @@ a:visited {
     background-color: black;
 }
 
+
+.n {
+    height: 300px;
+    color: black;
+}
 
