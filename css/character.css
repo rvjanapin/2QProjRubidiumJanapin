@@ -1,0 +1,120 @@
+.gallery {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    margin: 5em 0;
+
+    justify-content: space-around;
+}
+
+.container {
+    width: 30vw; 
+    height: 100%;
+    
+    background-color: white;
+    border-radius: 5%;
+}
+
+.iCont {
+    height: 90%;
+    width: 100%;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+}
+
+.gallery img {
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+}
+
+.source {
+    padding: 0.5em;
+    text-align: center;
+    border-top: 3px solid grey;
+}
+
+.source > a:link, a:visited {
+    color: grey;
+}
+
+.nameStat {
+    height: 10vh;
+    margin: 3em;
+}
+
+.name {
+    font-size: 3em;
+
+}
+
+
+.subcount {
+    display: flex;
+    align-items: center;
+}
+
+.subcount > .subs {
+    margin: 0.5em 0;
+    width: auto;
+    color: white;
+    font-size: 2em;
+    display: inline-block;
+}
+
+.subcount > .fullBar {
+    height: 1.25em;
+    width: 80%; 
+    margin-left: 2em;
+    background-color: white;
+    border: 1px solid black;
+    z-index: 1;
+}
+
+.content1 {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+} 
+
+.avatar {
+    background-color: #00000000;
+}
+
+.avatar > img {
+    height: 100%;
+    width: 100%;
+}
+
+.paragraph {
+    font-size: 1.25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 1.5em;
+}
+
+.content2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: auto;
+}
+
+.content2 > div {
+    margin: 0 2em;
+    margin-bottom: 3em;
+}
+
+ul {
+    list-style: none;
+    line-height: 3em;
+}
+
+ol {
+    line-height: 3em;
+}
+
+
