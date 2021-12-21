@@ -51,9 +51,25 @@
     width: 20%;
     margin: 5% 5%;
     border-radius: 5%;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.8); 
     background-color: white;
+    transition: 0.5s ease-in;
+    position: relative;
 }
+
+.card:hover{
+    transform: translate(-5%,-5%);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 1); 
+}
+
+.card:hover::after{
+   content: "Click image for source!";
+   width: 100%;
+   font-size: 1em;
+   position: absolute;
+   top: -5%;
+   text-align: center;
+}
+
 
 .card img {
     border-radius: 5% 5% 0% 0%;
