@@ -20,7 +20,7 @@ header {
     top: 0;
     align-items: center;
     background-color: rgba(0,0,0,0.8);
-
+    
     padding: 1em;
     display: flex;
     z-index: 2;
@@ -36,7 +36,8 @@ header {
 }
 .logo img {
     height: 8em;
-    margin-left: 1em;
+    width: auto;
+    margin-left: 1.2em;
     display: inline-block;
 }
 
@@ -48,18 +49,33 @@ header {
     color: white;
 }
 
-address {
-    display:flex;
-    align-items: right;
-    margin-left: auto;
-    margin-right: 5em;
+nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: auto;    
+    margin-right: 2em;
 }
 
-address ul{
+.pages > li{
+    float: left;
+    margin-right: 1.5em;
+}
+
+.pages{
+    font-size: 1.2rem;
     list-style: none;
-    text-align: right;
 }
 
+
+.pages li a {
+    display: block;
+    color: white;
+    text-align: center;
+}
 a:link {
     color: gray;
 }
@@ -106,16 +122,6 @@ footer > .logo2 {
     margin-right: 2em;
 }
 
-nav {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    align-self: flex-end;
-    flex-wrap: wrap;
-    justify-content: right;
-    
-    margin-right: 2em;
-}
 
 .link {
     width: 25%;
@@ -125,3 +131,41 @@ nav {
     align-items: center;
     justify-content: flex-end;
 }
+
+address {
+    font-size: 1.2em;
+    margin-right: 2em;
+}
+
+address ul {
+    list-style: none;
+    text-align: right;
+}
+
+address li{
+    display: inline;
+    height: 84px;
+    vertical-align: middle;
+    margin: 1em;
+}
+
+.icon {
+    background-image: url("../images/spritesheet.jpg");
+    height: 84px;
+    width: 84px;
+    display: inline-block;
+}
+
+#icon1{
+    background-position: 256px 0px;
+}
+
+#icon2{
+    background-position: 84px 0px;
+}
+
+#icon3{
+    background-position: 420px 0px;
+}
+
+

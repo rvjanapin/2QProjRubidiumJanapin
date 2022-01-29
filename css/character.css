@@ -30,6 +30,13 @@
     object-position: center center;
     border-top-right-radius: 5%;
     border-top-left-radius: 5%;
+    transition: linear 0.1s;
+}
+
+.gallery .iCont:hover img{
+    transition: linear 0.1s;
+    transform: scale(1.25);
+    border-radius: 0%;
 }
 
 .source {
@@ -51,7 +58,6 @@
     font-size: 3em;
 
 }
-
 
 .subcount {
     display: flex;
@@ -82,11 +88,12 @@
 
 .avatar {
     background-color: #00000000;
+    display: flex;
 }
 
 .avatar > img {
-    height: 100%;
     width: 100%;
+    object-fit: contain;
 }
 
 .paragraph {
