@@ -105,3 +105,15 @@
     margin: 1rem;
 }
 
+.content3 {
+    margin: 0 10%;
+    width: auto;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 0rem;
+}
+h2 {
+    margin-top: 0rem;
+}
